@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edge"
+	>
+
+        <RadioButton
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Wifi" />
+
+        <RadioButton
+            android:id="@+id/gprs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Network Internet" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Internet Connection Method"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+  
+                <View
+                    android:id="@+id/edge"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView1"
+                    android:background="#cccccccc" 
+                    android:layout_marginBottom="7dp"/>
+
+                <Button
+                    android:id="@+id/start_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radioGroup1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="42dp"
+                    android:text="Start" />
+
+</RelativeLayout>
