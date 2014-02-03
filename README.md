@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hackathon
 =========
 
@@ -33,3 +34,9 @@ SMS Service:
 
 - Send an SMS to 8333 to get a list of health care departments.
 - Send an SMS to 8333 with the number assigned to the concerned department to receive the address of the nearest facility.
+=======
+Civic_Hackathon
+===============
+
+Civic Hackaton: Android &amp; Web app
+>>>>>>> 7b9b9cf9dfd8631559080766f18122b36759c28d
