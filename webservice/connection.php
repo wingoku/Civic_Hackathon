@@ -8,9 +8,9 @@
 		$db = "dreamsso_hackathon";
 		*/
 		
-		$host = "166.62.8.75";
+		$host = "******";
 		$user = "hackathon";
-		$password = "m@Sood5192";
+		$password = "******";
 		$db = "hackathon";
 		
 		
